@@ -8,12 +8,12 @@
 body {
         height: 100vh;
         box-sizing: border-box;
-        background-color: black;
-        color: white;
+        background-color: rgba(158, 140, 119, 0.842);
+        color: rgb(0, 0, 0);
 }
 
 .titulo-destaque{
-        color:#22d4fd;
+        color:#7a49d4;
 }
 
 .conteudo{
@@ -46,8 +46,8 @@ body {
 }
 
 .botao {
-        background-color: #22d4fd;
-        color: black;
+        background-color: #7a49d4;
+        color: rgb(0, 0, 0);
         width: 280px;
         text-align: center;
         border-radius: 16px;
@@ -60,4 +60,9 @@ body {
 .imagem {
         max-width: 50%;
         width: auto;
+        border-radius: 50%;  
+        overflow: hidden;
+        background-color: #8043cf;
+        border: 2px solid #8043cf;
+        box-shadow: 0 0 10px #8043cf;
 }
