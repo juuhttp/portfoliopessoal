@@ -22,21 +22,24 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% 3%;
+    text-align: center; /* Centraliza o conteúdo dentro do elemento */
 }
 
 .cabecalho-menu {
     display: flex;
     gap: 80px;
+    justify-content: center; /* Centraliza os itens horizontalmente */
 }
 
-.cabecalho-menu-links{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+.cabecalho-menu-links {
+    font-family: 'Arial', sans-serif; /* Altera a fonte para Arial (por exemplo) */
+    font-size: 30px; /* Aumenta o tamanho da fonte para 30px */
     font-weight: 600;
     color: #5b496b;
     text-decoration: none;
 }
+
 
 .titulo-destaque{
         color: #5b496b;
